@@ -1,8 +1,8 @@
 def print_deco(function):
-	def wrapper(x, y):
+	def wrapper(x, z):
 		bn = ',\n'
 		count = 0
-		a = function(x, y)
+		a = function(x, z)
 		print('[')
 		for i in a:
 			if count == len(a)-1:
