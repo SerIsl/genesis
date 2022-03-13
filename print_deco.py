@@ -1,3 +1,5 @@
+import pandas as pd
+
 def print_deco(function):
 	def wrapper(x, z):
 		bn = ',\n'
